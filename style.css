@@ -1,0 +1,61 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+:root {
+  /* Font Family */
+  --font-primary: "Roboto", sans-serif;
+
+  /* Colors */
+  --color-dark-bg: #1f2937; /* Hero and Footer background */
+  --color-light-text: #f9faf8; /* Hero main text and logo */
+  --color-secondary-text: #e5e7eb; /* Hero secondary text */
+  --color-accent-blue: #3882f6; /* Button/CTA background */
+  --color-quote-bg: #e5e7eb; /* Quote section background */
+
+  /* Font Sizes */
+  --fs-hero-main: 48px;
+  --fs-hero-secondary: 18px;
+  --fs-logo: 24px;
+  --fs-info-header: 36px;
+  --fs-quote: 36px;
+
+  /* Font Weights */
+  --fw-extra-bold: 900;
+  --fw-light: 300;
+
+  /* Composite Text Styles */
+  --text-hero-main: 900 48px/1.2 "Roboto", sans-serif;
+  --text-hero-secondary: 400 18px/1.5 "Roboto", sans-serif;
+  --text-logo: 400 24px/1.2 "Roboto", sans-serif;
+  --text-info-header: 900 36px/1.3 "Roboto", sans-serif;
+  --text-quote: 300 italic 36px/1.4 "Roboto", sans-serif;
+}
+
+.header {
+  background-color: var(--color-dark-bg);
+}
+
+.header__container {
+  margin: 0 auto;
+  max-width: 120rem;
+  background-color: red;
+}

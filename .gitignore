@@ -24,6 +24,7 @@ coverage/
 /dist/
 /build/
 /out/
+/.junie/
 
 # Caches
 .cache/
